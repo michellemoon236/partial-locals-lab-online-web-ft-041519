@@ -47,3 +47,6 @@ returned in the search results.
    displayed by rendering a `students/_student.html.erb` partial.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/partial-locals-lab'>Partial with Locals Lab</a> on Learn.co and start learning to code for free.</p>
+
+
+    self.select { |i| i.name.include?(string) }
